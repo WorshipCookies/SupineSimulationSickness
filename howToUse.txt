@@ -1,0 +1,15 @@
+Description of how to use PDM Unity Project
+
+In assets:
+
+-TrainingScene is a reduced environment to get used to the game mechanisms
+
+-GameScene is the real game
+ In GlobalControl, CSV Save record the movement of the player, enemy and others
+ Check replay if you want to replay a file
+For both:
+-It uses a config file saved in Assets>CSV containing the different value for factors, FOV, reste frame, position, etc.
+ You have to enter the Subject Id, Session and Phase that you want to run.
+-You can modify parameters such as Powerup duration, minimap cooldown from the scripts in GameManager
+-Run the game
+

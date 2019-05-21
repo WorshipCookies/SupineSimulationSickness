@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1173254299365234}
+  m_IsPrefabParent: 1
+--- !u!1 &1173254299365234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4237623725184548}
+  - component: {fileID: 114486968613772412}
+  - component: {fileID: 114077783195538622}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4237623725184548
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173254299365234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114077783195538622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173254299365234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db54d0d283e94a340a19494715729689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfPoints: 20
+  scaleOuterSphere: 2000
+  scaleMultipleSpheres: 100
+  SphereMaterial: {fileID: 2100000, guid: 564e0c476bce0224bb60c6b3c9e176a2, type: 2}
+--- !u!114 &114486968613772412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173254299365234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44209354ea162e740892a11e1b12192c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTraining: 0
+  coinsCounter: 0
+  Walls: {fileID: 0}
+  Glass: {fileID: 2100000, guid: fc205a21b680626498ec65ee805b926f, type: 2}
+  invisibleWallsMaxTimeDuration: 5
+  desactivatedButtonMaxTimeDuration: 15
+  Button: {fileID: 0}
+  FinishPortal: {fileID: 0}
+  Player: {fileID: 0}
+  PlayerRespawnArea: {fileID: 0}
+  collectedCoinsList: []
+  powerUpDuration: 10
+  ennemyChase: 0
+  UI: {fileID: 0}
+  gameOverDuration: 3
+  MinimapEnvironment: {fileID: 0}
+  minimapCooldownDuration: 5

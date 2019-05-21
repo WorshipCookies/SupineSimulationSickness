@@ -1,0 +1,12 @@
+SubjectId;Session;Phase;Pos;Fov;RestFrame;Navigation
+3;1;1;lying;reduced;default;extended
+3;1;2;lying;reduced;textured;extended
+2;1;1;lying;reduced;textured;extended
+2;1;2;lying;blurred;default;extended
+2;2;1;lying;default;textured;extended
+4;1;1;seated;reduced;default;extended
+4;1;2;seated;reduced;textured;extended
+4;2;1;lying;reduced;default;extended
+4;2;2;lying;reduced;textured;extended
+5;1;1;seated;reduced;default;extended
+5;1;2;seated;reduced;textured;extended
